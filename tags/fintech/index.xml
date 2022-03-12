@@ -8,16 +8,32 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://wuhuihangsufe.github.io/tags/fintech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>减税能否提高企业生产效率——基于西部大开发准自然实验的研究</title>
-      <link>https://wuhuihangsufe.github.io/post/%E8%AE%BA%E6%96%872/</link>
+      <title>Portfolio Rotation via Machine Learning</title>
+      <link>https://wuhuihangsufe.github.io/publication/%E8%AE%BA%E6%96%872/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://wuhuihangsufe.github.io/post/%E8%AE%BA%E6%96%872/</guid>
-      <description>发表信息  ”减税能否提高企业生产效率——基于西部大开发准自然实验的研究”(合作者：刘小兵和季永宝)《财经研究》,2017,43(4):55-67. 下载地址  论文获奖   《人大复印资料》于2017年第7期全文转载
-  第三届“区域科学与城市经济前沿”学术论坛三等奖
-  第二届“全国中青年税收学术研讨会”优秀论文奖
-  论文摘要 降低实体经济企业成本,提高其经济效率,是我国供给侧改革的核心内容,而减税政策是重中之重。文章以西部大开发作为准自然实验,基于1998-2007年工业企业微观数据,使用双重差分法研究了减税对实体经济的影响。研究发现,减税政策能够刺激实体经济发展,名义税率每下降1%,企业生产效率平均提高0.38%-0.75%。减税对企业生产效率的影响既有直接效应也存在间接效应。直接效应表现为减税有利于存续企业生产效率的提升,间接效应则表现为减税可以刺激更多的创业活动,而新进入企业比存续企业具有更高的生产效率。异质性检验表明,小企业比大企业对于减税政策更加敏感,而且减税对生产效率的影响随着时间推移先增加后减小,存在长期收敛效应。文章为我国减税政策如何影响企业生产效率提供了经验证据,对于今后税收政策的制定具有重要的理论与实践意义。
-关键词 减税政策，企业生产效率，双重差分法</description>
+      <guid>https://wuhuihangsufe.github.io/publication/%E8%AE%BA%E6%96%872/</guid>
+      <description>论文信息  ”Portfolio Rotation via Machine Learning”(with Xingkong Wei and Xiaoyan Zhang)  论文获奖  在2019年中国金融科技学术年会进行展示  论文摘要 We propose a novel method to rotate portfolios dynamically via machine learning. Our empirical results show that portfolio rotation strategies via machine learning can generate significant economic value. We find that machine learning models are suitable in portfolio return prediction under the circumstance of high dimensionality and muti-collinearity. All machine learning models generate positive out of sample R2.</description>
+    </item>
+    
+    <item>
+      <title>数字化财富管理如何助力后疫情时代经济复苏——来自中国的经验</title>
+      <link>https://wuhuihangsufe.github.io/others/%E8%AE%BA%E6%96%872/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://wuhuihangsufe.github.io/others/%E8%AE%BA%E6%96%872/</guid>
+      <description>文章信息  ”《数字化财富管理如何助力后疫情时代经济复苏——来自中国的经验》”(with Huiming Ge and Xiaoyan Zhang) Global Future Council on Responsive Financial Systems: Three ways to accelerate a digital-led recovery(with Huiming Ge and Xiaoyan Zhang)  文章报道  金融科技如何助力中国抗“疫”，清华五道口团队与世界经济论坛联合发布白皮书 by 清华大学五道口金融学院 3 ways to accelerate a digital-led recovery by Forbes  论文摘要 中国政府高度重视数字经济的发展，发展数字经济是把握新一轮科技革命和产业变革新机遇的战略选择，特别是新冠肺炎疫情暴发以来，数字技术、数字经济在支持抗击新冠肺炎疫情、恢复生产生活方面发挥了重要作用。在此背景下，文章基于详实的微观投资者账户数据，研究发现疫情后中国高速的数字金融服务增长对居民投资收益产生了积极的影响。文章借助世界经济论坛的渠道，向全球其他国家传播了如何利用金融科技来应对疫情冲击的宝贵中国故事。
+关键词 金融科技，蚂蚁金服，疫情，数字财富管理</description>
+    </item>
+    
+    <item>
+      <title>机器学习视角下中国股票资产收益率可预测性研究</title>
+      <link>https://wuhuihangsufe.github.io/publication/%E8%AE%BA%E6%96%87/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://wuhuihangsufe.github.io/publication/%E8%AE%BA%E6%96%87/</guid>
+      <description>论文信息  机器学习视角下中国股票资产收益率可预测性研究 (合作者： 魏行空和张晓燕)下载地址  论文获奖  第二届中国金融学术与政策论坛展示并获优秀论文奖 2019年中国金融科技学术年会进行展示  论文摘要 股票收益率的可预测性一直以来都是金融学的核心研究问题之一，本文尝试引入机器学习的方法来探索收益率可预测问题在中国的答案。基于1997年1月到2019年12月A股市场的108个股票异象性特征，本文比较了传统计量经济学模型与多种主流机器学习算法在A股个股样本外可预测性问题上的表现。研究发现历史交易数据信息对下个月个股股票收益率依然有预测效果，且机器学习算法的样本外预测效果优于传统计量经济学模型。
+关键词 Return Prediction, Out-of-sample forecasts, Machine Learning, Fintech</description>
     </item>
     
   </channel>

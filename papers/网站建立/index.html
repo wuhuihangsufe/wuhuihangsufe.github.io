@@ -6,14 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.93.2" />
-  <link rel="canonical" href="https://wuhuihangsufe.github.io/papers/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0/" />
+  <link rel="canonical" href="https://wuhuihangsufe.github.io/papers/%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%8B/" />
 
   
     
-    <meta name="description" content="内容修改  新的文章添加主要在以下路径中：F:\hugo\myblog\themes\cupper-hugo-theme\content 修改全局信息文件位于F:\hugo\myblog\themes\cupper-hugo-theme\config.yaml  更新步骤 查看并检查修改情况 在根目录F:\hugo\myblog文件夹中运行hugo server -t cupper-hugo-theme --buildDrafts使用Hugo将修改同步到public文件夹中 在根目录F:\hugo\myblog文件夹中运行
-hugo --theme=cupper-hugo-theme --baseUrl=&#34;https://wuhuihangsufe.github.io&#34; --buildDrafts在git中更新并推送到github上 以下代码需要在F:\hugo\myblog\public文件夹中运行
-git add .git commit -m &#34;我的修改&#34;git push -u origin master如果git push失败就多试几次
-参考资料  github密码报错问题 B站教学视频  ">
+    <meta name="description" content="官网下载Hugo  在Hugo的github官网中找到自己版本，下载二进制文件：hugo_0.93.2_Windows-ARM64.zip  本地电脑安装Hugo  将上面的hugo_0.93.2_Windows-ARM64.zip文件解压到你本地的某个文件夹中，例如：F:\hugo 将二进制文件所在文件夹F:\hugo加入到你的系统环境目录中，使得cmd能够随时调用hugo  搭建Hugo  进入CMD，然后cd文件夹F:\hugo中，输入hugo new site myblog 能够发现文件夹目录中多了一个myblog的文件夹，这个是整个hugo的根目录 cd 进入上面的文件夹F:\hugo\myblog中  下载一个主题  使用git来获取一个主题，并克隆到themes文件夹下git clone https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme 将该主题加入hugo的主题库中git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme  使用Hugo拉起一个网站  把文件夹目录F:\hugo\myblog\themes\cupper-hugo-theme\exampleSite中的文件夹直接复制到文件夹目录F:\hugo\myblog\themes\cupper-hugo-theme\中，来直接调用样本案例网站 使用hugo命令来拉起网站hugo server -t cupper-hugo-theme --buildDrafts 在浏览器的http://localhost:1313/端口中查看静态网站情况  用Github发布自己的网站  在Github上新建立一个  ">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://wuhuihangsufe.github.io/apple-touch-icon.png">
@@ -63,7 +60,7 @@ git add .git commit -m &#34;我的修改&#34;git push -u origin master
 
   
   
-  <title>基于hugo的网站更新操作 | My New Hugo Site</title>
+  <title>Windows下Hugo博客的建立 | My New Hugo Site</title>
 </head>
 
   <body>
@@ -298,55 +295,64 @@ git add .git commit -m &#34;我的修改&#34;git push -u origin master
         <div>
           
   <main id="main">
-    <h1>基于hugo的网站更新操作</h1>
-    <h1 id="内容修改">内容修改</h1>
+    <h1>Windows下Hugo博客的建立</h1>
+    <h1 id="官网下载hugo">官网下载Hugo</h1>
 <ul>
-<li>新的文章添加主要在以下路径中：<code>F:\hugo\myblog\themes\cupper-hugo-theme\content</code></li>
-<li>修改全局信息文件位于<code>F:\hugo\myblog\themes\cupper-hugo-theme\config.yaml</code></li>
+<li>在Hugo的<a href="https://github.com/gohugoio/hugo/releases">github官网</a>中找到自己版本，下载二进制文件：<code>hugo_0.93.2_Windows-ARM64.zip</code></li>
 </ul>
-<h1 id="更新步骤">更新步骤</h1>
-<h2 id="查看并检查修改情况">查看并检查修改情况</h2>
-<p>在根目录<code>F:\hugo\myblog</code>文件夹中运行
+<h1 id="本地电脑安装hugo">本地电脑安装Hugo</h1>
+<ul>
+<li>将上面的<code>hugo_0.93.2_Windows-ARM64.zip</code>文件解压到你本地的某个文件夹中，例如：<code>F:\hugo</code></li>
+<li>将二进制文件所在文件夹<code>F:\hugo</code>加入到你的系统环境目录中，使得cmd能够随时调用hugo</li>
+</ul>
+<h1 id="搭建hugo">搭建Hugo</h1>
+<ul>
+<li>进入CMD，然后cd文件夹<code>F:\hugo</code>中，输入
+
+<pre class="cmd">
+  
+  <code>hugo new site myblog</code>
+  
+</pre>
+</li>
+<li>能够发现文件夹目录中多了一个myblog的文件夹，这个是整个hugo的根目录</li>
+<li>cd 进入上面的文件夹<code>F:\hugo\myblog</code>中</li>
+</ul>
+<h1 id="下载一个主题">下载一个主题</h1>
+<ul>
+<li>使用git来获取一个主题，并克隆到themes文件夹下
+
+<pre class="cmd">
+  
+  <code>git clone https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme</code>
+  
+</pre>
+</li>
+<li>将该主题加入hugo的主题库中
+
+<pre class="cmd">
+  
+  <code>git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme</code>
+  
+</pre>
+</li>
+</ul>
+<h1 id="使用hugo拉起一个网站">使用Hugo拉起一个网站</h1>
+<ul>
+<li>把文件夹目录<code>F:\hugo\myblog\themes\cupper-hugo-theme\exampleSite</code>中的文件夹直接复制到文件夹目录<code>F:\hugo\myblog\themes\cupper-hugo-theme\</code>中，来直接调用样本案例网站</li>
+<li>使用hugo命令来拉起网站
 
 <pre class="cmd">
   
   <code>hugo server -t cupper-hugo-theme --buildDrafts</code>
   
 </pre>
-</p>
-<h2 id="使用hugo将修改同步到public文件夹中">使用Hugo将修改同步到public文件夹中</h2>
-<p>在根目录<code>F:\hugo\myblog</code>文件夹中运行</p>
-
-
-<pre class="cmd">
-  
-  <code>hugo --theme=cupper-hugo-theme --baseUrl=&#34;https://wuhuihangsufe.github.io&#34; --buildDrafts</code>
-  
-</pre>
-
-<h2 id="在git中更新并推送到github上">在git中更新并推送到github上</h2>
-<p>以下代码需要在<code>F:\hugo\myblog\public</code>文件夹中运行</p>
-
-
-<pre class="cmd">
-  
-  <code>git add .</code>
-  
-  <code></code>
-  
-  <code>git commit -m &#34;我的修改&#34;</code>
-  
-  <code></code>
-  
-  <code>git push -u origin master</code>
-  
-</pre>
-
-<p>如果git push失败就多试几次</p>
-<h1 id="参考资料">参考资料</h1>
+</li>
+<li>在浏览器的<code>http://localhost:1313/</code>端口中查看静态网站情况</li>
+</ul>
+<h1 id="用github发布自己的网站">用Github发布自己的网站</h1>
 <ul>
-<li><a href="https://www.cnblogs.com/plpeng/p/15175315.html">github密码报错问题</a></li>
-<li><a href="">B站教学视频</a></li>
+<li>在Github上新建立一个</li>
 </ul>
 
   </main>
